@@ -1,0 +1,25 @@
+{
+    "light": {
+        "toggle": "hsl(230, 22%, 74%)",
+        "white": "hsl(0, 0%, 100%)",
+
+        "backgroundUp": "hsl(225, 100%, 98%)", 
+        "backgroundDown": "hsl(0, 0%, 100%)",
+        "backgroundCard": "hsl(227, 47%, 96%)",
+
+        "text1": "hsl(228, 12%, 44%)",
+        "text2": "hsl(230, 17%, 14%)"
+    },
+
+    "dark": {
+        "toggle": "linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)",
+        "veryDarkBlue": "hsl(230, 17%, 14%)",
+
+        "backgroundUp": "hsl(232, 19%, 15%)",  
+        "backgroundDown": "hsl(230, 17%, 14%)",
+        "backgroundCard": "hsl(228, 28%, 20%)",
+
+        "text1": "hsl(228, 34%, 66%)",
+        "text2": "hsl(0, 0%, 100%)"
+    }
+}
