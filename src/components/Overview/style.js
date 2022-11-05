@@ -40,7 +40,12 @@ export const OptionView = styled.tr`
   display: grid;
   grid-gap: 15px;
 
+  cursor: pointer;
   transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: ${props=>props.bgHover};
+  }
 
   div {
     margin: 0;
@@ -66,6 +71,8 @@ export const OptionView = styled.tr`
     color: ${(props) => props.colorCount};
     font-size: 1.75em;
   }
+
+ 
 `;
 
 export const porcentView = styled.div`

@@ -16,7 +16,11 @@ export default function MainSocialMidia({ theme }) {
   return (
     <Styled.Container className="center" theme={theme} >
 
-      <Styled.infoSocial color={theme?'hsl(230, 17%, 14%)':'hsl(0, 0%, 100%)'} bg={theme ? themeData.light.backgroundCard :themeData.dark.backgroundCard} >
+      <Styled.infoSocial 
+      color={theme?'hsl(230, 17%, 14%)':'hsl(0, 0%, 100%)'} 
+      bg={theme ? themeData.light.backgroundCard :themeData.dark.backgroundCard} 
+      bgHover={theme?'hsl(227, 47%, 91%)':'hsl(228, 28%, 25%)'}
+      >
         <Styled.VerticalLine bg={'hsl(208, 92%, 53%), hsl(208, 92%, 53%)'} />
 
         <span> <img src={facebook} alt="imagem do facebook" /> @nathanf </span>
@@ -28,7 +32,11 @@ export default function MainSocialMidia({ theme }) {
         </Styled.TodayFollowers>
       </Styled.infoSocial>
 
-      <Styled.infoSocial color={theme?'hsl(230, 17%, 14%)':'hsl(0, 0%, 100%)'} bg={theme ? themeData.light.backgroundCard :themeData.dark.backgroundCard} >
+      <Styled.infoSocial 
+      color={theme?'hsl(230, 17%, 14%)':'hsl(0, 0%, 100%)'} 
+      bg={theme ? themeData.light.backgroundCard :themeData.dark.backgroundCard} 
+      bgHover={theme?'hsl(227, 47%, 91%)':'hsl(228, 28%, 25%)'}
+      >
         <Styled.VerticalLine bg={'hsl(203, 89%, 53%), hsl(203, 89%, 53%)'} />
 
         <span> <img src={twitter} alt="imagem do twitter" /> @nathanf </span>
@@ -40,7 +48,11 @@ export default function MainSocialMidia({ theme }) {
         </Styled.TodayFollowers>
       </Styled.infoSocial>
 
-      <Styled.infoSocial color={theme?'hsl(230, 17%, 14%)':'hsl(0, 0%, 100%)'} bg={theme ? themeData.light.backgroundCard :themeData.dark.backgroundCard} >
+      <Styled.infoSocial 
+      color={theme?'hsl(230, 17%, 14%)':'hsl(0, 0%, 100%)'} 
+      bg={theme ? themeData.light.backgroundCard :themeData.dark.backgroundCard} 
+      bgHover={theme?'hsl(227, 47%, 91%)':'hsl(228, 28%, 25%)'}
+      >
         <Styled.VerticalLine bg={'hsl(37, 97%, 70%), hsl(329, 70%, 58%)'} />
 
         <span> <img src={instagram} alt="imagem do instagram" /> @realnathanf </span>
@@ -52,7 +64,11 @@ export default function MainSocialMidia({ theme }) {
         </Styled.TodayFollowers>
       </Styled.infoSocial>
 
-      <Styled.infoSocial color={theme?'hsl(230, 17%, 14%)':'hsl(0, 0%, 100%)'} bg={theme ? themeData.light.backgroundCard :themeData.dark.backgroundCard} >
+      <Styled.infoSocial 
+      color={theme?'hsl(230, 17%, 14%)':'hsl(0, 0%, 100%)'} 
+      bg={theme ? themeData.light.backgroundCard :themeData.dark.backgroundCard} 
+      bgHover={theme?'hsl(227, 47%, 91%)':'hsl(228, 28%, 25%)'}
+      >
         <Styled.VerticalLine bg={'hsl(37, 97%, 70%), hsl(329, 70%, 58%)'} />
 
         <span> <img src={youtube} alt="imagem do instagram" /> @realnathanf </span>

@@ -29,6 +29,7 @@ export const infoSocial = styled.div`
 
   transition: all 0.2s ease-in-out;
   position: relative;
+  cursor: pointer;
 
   span {
     width: fit-content;
@@ -55,6 +56,10 @@ export const infoSocial = styled.div`
   h2 {
     color: ${props=>props.color};
     font-size: 2.0em;
+  }
+
+  &:hover {
+    background-color: ${props=>props.bgHover};
   }
 `;
 
