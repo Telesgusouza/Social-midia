@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import * as Styled from "./style";
 import theme from "../Data/theme.json";
+import MainSocialMidia from "../components/MainSocialMidia";
+import Overview from "../components/Overview";
 
 function App() {
   const [themePage, setThemePage] = useState(false);
@@ -10,7 +12,6 @@ function App() {
     setThemePage((p) => !p);
   }
 
-  console.log(theme.dark.text1);
 
   return (
     <Styled.Container>
@@ -46,6 +47,9 @@ function App() {
           </Styled.ContainerInput>
         </Styled.CotainerHeader>
       </Styled.ContainerContent>
+      
+      <MainSocialMidia theme={themePage} />
+      <Overview theme={themePage} />
     </Styled.Container>
   );
 }
