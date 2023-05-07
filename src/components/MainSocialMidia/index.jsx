@@ -11,7 +11,6 @@ import down from '../../assets/images/icon-down.svg';
 import up from '../../assets/images/icon-up.svg';
 
 export default function MainSocialMidia({ theme }) {
-  console.log(theme)
 
   return (
     <Styled.Container className="center" theme={theme} >

@@ -11,8 +11,6 @@ import down from "../../assets/images/icon-down.svg";
 import up from "../../assets/images/icon-up.svg";
 
 export default function Overview({ theme }) {
-  console.log(theme);
-  console.log(themeData);
 
   return (
     <Styled.Container className="center">
